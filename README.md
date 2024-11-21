@@ -1,4 +1,4 @@
-# Mask as Supervision
+# [ECCV 2024] Mask as Supervision
 
 ### 📖 Mask as Supervision: Leveraging Unified Mask Information for Unsupervised 3D Pose Estimation
 
@@ -11,14 +11,18 @@
 ## TODOs
 🔨 Code will be released after the paper is accepted.
 
+Due to the problem mentioned in [issue1](https://github.com/Charrrrrlie/Mask-as-Supervision/issues/1), we are still working on refactoring the code.
+Please refer to [the repo of V2](https://github.com/Charrrrrlie/X-as-Supervision), which includes the main code from this project with minor modifications.
+
 
 ## Citation
 ```
-@misc{yang2023mask,
-      title={Mask as Supervision: Leveraging Unified Mask Information for Unsupervised 3D Pose Estimation}, 
-      author={Yuchen Yang and Yu Qiao and Xiao Sun},
-      year={2023},
-      eprint={2312.07051},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{yang2024mask,
+  title={Mask as Supervision: Leveraging Unified Mask Information for Unsupervised 3D Pose Estimation},
+  author={Yang, Yuchen and Qiao, Yu and Sun, Xiao},
+  booktitle={European Conference on Computer Vision},
+  pages={38--55},
+  year={2024},
+  organization={Springer}
 }
+```
